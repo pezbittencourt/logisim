@@ -179,6 +179,7 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <comp loc="(240,230)" name="full subtractor"/>
+    <comp loc="(290,220)" name="full adder 2 bits"/>
     <comp loc="(160,230)" name="full adder"/>
   </circuit>
   <circuit name="full subtractor">
@@ -271,9 +272,9 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
   </circuit>
   <circuit name="full adder 2 bits">
     <a name="circuit" val="full adder 2 bits"/>
-    <a name="clabel" val=""/>
-    <a name="clabelup" val="east"/>
-    <a name="clabelfont" val="SansSerif plain 12"/>
+    <a name="clabel" val="FA 2 bits"/>
+    <a name="clabelup" val="north"/>
+    <a name="clabelfont" val="SansSerif bold 12"/>
     <wire from="(170,320)" to="(170,390)"/>
     <wire from="(990,380)" to="(1050,380)"/>
     <wire from="(990,420)" to="(1050,420)"/>
